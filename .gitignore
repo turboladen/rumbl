@@ -24,4 +24,5 @@ erl_crash.dump
 /config/prod.secret.exs
 
 .tags
+tags
 .mix_tasks
