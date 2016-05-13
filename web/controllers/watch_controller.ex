@@ -3,7 +3,7 @@ defmodule Rumbl.WatchController do
   alias Rumbl.Video
 
   def show(conn, %{"id" => id}) do
-    video Repo.get!(Video, id)
+    video = Repo.get!(Video, id)
     render conn, "show.html", video: video
   end
 end
